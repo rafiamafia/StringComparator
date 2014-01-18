@@ -25,3 +25,17 @@ Compares two string parameters, compares the two string and returns an integer a
  
       If the return value is >0, then one string is returned and is made up with the merged
       2 input strings; IE abcdef and uvwxyz, would be displayed as zfyexdwcvbua
+
+How to use:
+====
+
+```ruby
+param1 = "somestring"
+param2 = "someotherstring"
+StringComparator.compare(param1, param2)
+```
+
+How to run the tests:
+====
+
+rspec string_comparator_spec.rb --format=documentation --color
