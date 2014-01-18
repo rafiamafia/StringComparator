@@ -28,7 +28,6 @@ Compares two string parameters, compares the two string and returns an integer a
 
 How to use:
 ====
-
 ```ruby
 param1 = "somestring"
 param2 = "someotherstring"
@@ -37,5 +36,4 @@ StringComparator.compare(param1, param2)
 
 How to run the tests:
 ====
-
-rspec string_comparator_spec.rb --format=documentation --color
+$rspec string_comparator_spec.rb --format=documentation --color
