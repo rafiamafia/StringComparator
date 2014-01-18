@@ -36,4 +36,5 @@ StringComparator.compare(param1, param2)
 
 How to run the tests:
 ====
-$rspec string_comparator_spec.rb --format=documentation --color
+
+     $rspec string_comparator_spec.rb --format=documentation --color
