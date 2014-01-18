@@ -3,13 +3,13 @@ module StringComparator
   def self.compare(str1, str2)
    if is_string?(str1) && is_string?(str2)
       if str1.length < str2.length
-        puts reverse(str1), reverse(str2)
+        puts str1.reverse, str2.reverse
         -1
       elsif str1.length == str2.length
         puts interpolator(str1, str2)
         0
       elsif str1.length > str2.length
-        puts reverse(interpolator str1, str2)
+        puts (interpolator str1, str2).reverse
         1
       end
     else
